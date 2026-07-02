@@ -3,7 +3,7 @@ type ChaiOrder = {
     sugar: number;
     strong: boolean;
 };
-
+// types aliases
 // function makeChai(order: {type: string; sugar: number; strong: boolean}){
 function makeChai(order: ChaiOrder){
     console.log(order);
